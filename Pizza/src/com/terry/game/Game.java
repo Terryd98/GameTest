@@ -11,7 +11,6 @@ import javax.swing.JFrame;
 
 import com.terry.game.entity.mob.Player;
 import com.terry.game.gfx.Render;
-import com.terry.game.gfx.Sprite;
 import com.terry.game.input.Keyboard;
 import com.terry.game.level.Level;
 

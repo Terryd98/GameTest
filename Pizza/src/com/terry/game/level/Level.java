@@ -24,7 +24,7 @@ public class Level {
 
 		for (int y = 0; y < height; y++) {
 			for (int x = 0; x < width; x++) {
-				if (random.nextInt(10) > 8) tiles[x + y * width] = Tile.grass.id;
+				if (random.nextInt(10) > 1) tiles[x + y * width] = Tile.grass.id;
 				else tiles[x + y * width] = Tile.stone.id;
 			}
 		}
